@@ -25,7 +25,7 @@ FirebaseData firebaseData;
 
 #define wifiLed D4 //GPIO 2
 
-int load1, load2, load3, load4, Power;
+int load1=1, load2=1, load3=1, load4=1, Power;
 
 void setup() {  
 Serial.begin(9600);
